@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iBlog-Heaven for bloggers</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/signIn.css">
+    <link rel="stylesheet" href="css/media.css">
+
+
+    <!-- Fonts Awesome link -->
+    <script src="https://kit.fontawesome.com/3bf8c869a3.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- nav bar -->
+    <nav class="navigation  marginAuto">
+
+        <div class="brand">
+               <h1 class="brand-text"><a href="/">iBlog</a></h1>
+           </div>
+       <div class="left">
+           <ul class="left-item-list ">
+               <li class="left-list"><a href="/" class="left-list-links">Home</a></li>
+               <li class="left-list"><a href="blog.html" class="left-list-links">Blogs</a></li>
+               <li class="left-list"><a href="contact.html" class="left-list-links">Contact Us</a></li>
+           </ul>
+       </div>
+
+
+           <div class="search-container">
+
+               <form action="/search.html" method="get">
+               <input type="text" name="query" id="search" placeholder="search..">
+               <button class="btn">search</button>
+               </form>
+           </div>
+
+       <div class="right">
+           <a href="/signIn.html" class="sign">Sign up</a>
+           <a href="" class="getStarted btn">Get Started</a>
+       </div>
+       
+       <i class="fa-solid fa-bars"  id="nav-toggler"></i>
+    
+   </nav>
+
+    <!-- main content -->
+
+    <main class="contact-content max-width-2 marginAuto">
+        <h2 class="contact-heading">Feel Free to Contact Us</h2>
+
+        <div class="contact-form">
+            <form action="">
+                <div>
+                    <label for="name"> Your Name</label>
+                    <input type="text" placeholder="Enter your name.."required>
+                </div>
+
+                <div>
+                    <label for="email"> Email</label>
+                    <input type="text" placeholder="Enter your Email.." required>
+                </div>
+
+                <div>
+                    <label for="age">Age<span>(optional)</span></label>
+                    <input type="number" placeholder="Enter your age..">
+                </div>
+
+                <div>
+                    <label for="name">Number</label>
+                    <input type="number" placeholder="Enter your number..">
+                </div>
+
+            
+                <div>
+                    <label for="feedback">Give your Feedback</label>
+                    <div class="feedback">
+                        <textarea name="feedback" id="feedback" cols="50" rows="5" placeholder="Give us your feedback..." required></textarea>
+                    </div>
+                     
+                </div>
+
+                <div>
+                   <input type="submit">
+                </div>
+
+            </form>
+        </div>
+
+    </main>
+
+    <footer class="marginAuto">
+        <div class="footer"></div>
+    </footer>
+
+    <script src="index.js" charset="UTF-8"></script>
+</body>
+
+</html>

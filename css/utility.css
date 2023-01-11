@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,900&family=Poppins:wght@400;500&family=Roboto&family=Rubik+Bubbles&family=Ubuntu+Condensed&display=swap');
+
+
+:root {
+    --font1: 'Poppins', sans-serif;
+    --font2: 'Roboto', sans-serif;
+    --font3: 'Ubuntu Condensed', sans-serif;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 70vw;
+}
+
+.marginAuto {
+    margin: auto;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    border: none;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+    cursor: pointer
+}
+
+input[type="text"] {
+    height: 2vw;
+    width: 14vw;
+    border-radius: 6px;
+    border: none;
+    padding: 0.5rem;
+    margin-right: 0.2rem;
+}
+
+.getStarted {
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: 0.2s ease-in-out;
+}
+
+.getStarted:hover {
+    background-color: black;
+
+}
+
+.sign {
+    padding: 0.8rem 1.5rem;
+    border-radius: 12px;
+    border: 0.8px solid black;
+    transition: 0.3s ease-in-out;
+}
+
+.sign:hover {
+    border: 1px solid white;
+}
+
+
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.left {
+    display: flex;
+}
+
+.left-item-list {
+    display: flex;
+    gap: 20px;
+    font-family: var(--font3);
+    letter-spacing: 1px;
+    align-items: center;
+    transition: 0.2s ease-in-out;
+}
+
+.left-list {
+    transition: 0.2s ease-in-out;
+    text-align: center;
+    align-items: center;
+}
+
+.left-list:hover {
+    font-weight: bolder;
+    border-bottom: 2px solid grey;
+}
+
+
+
+.right {
+    display: flex;
+    gap: 2rem;
+    font-family: var(--font3);
+    letter-spacing: 1px;
+    align-items: center;
+}
+
+
+/* Classes for blog page */
+
+.author-detail {
+    margin: 2rem 0;
+    font-weight: bold;
+    font-family: var(--font3);
+    letter-spacing: 2px;
+}
+
+.author-detail span {
+    display: block;
+}
+
+
+.blog-heading {
+    padding-block: 1.5rem;
+}
+
+
+.fullScreenBlogs {
+    height: 350vh;
+    padding: 2rem 1rem;
+    position: relative;
+}
+
+
+.blog-para {
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+    font-family: var(--font2);
+    text-align: start;
+}
+
+
+
+.Blog-article {
+    text-align: center;
+    padding-bottom: 1rem;
+}
