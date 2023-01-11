@@ -218,7 +218,7 @@
     }
 
     .fullScreenBlogs{
-    height: 920vh;
+    height: 550vh;
     }
 
     .blog-para{
@@ -253,7 +253,7 @@
  }
 
  .fullScreenBlogs{
-    height: 960vh;
+    height: 600vh;
  }
 
  .contact-content input[type="text"] {
@@ -277,11 +277,11 @@ input[type="number"] {
     
     
     .home-articles{
-        height: 810vw;
+        height: 750vw;
        }
       
        .fullScreenBlogs{
-          height: 1080vh;
+          height: 650vh;
        }
 
 
