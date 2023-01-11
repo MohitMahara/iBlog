@@ -176,7 +176,7 @@
 
 /* media query for phones */
 
-@media screen and (max-width: 414px), screen and (max-height:896px) {
+@media screen and (max-width: 414px){
 
         .navigation {
          height: 12vw
@@ -250,7 +250,7 @@
 
 }
 
-@media screen and (max-width:375px), screen and (max-height:667px) {
+@media screen and (max-width:375px){
     
  .home-articles{
   height: 710vw;
