@@ -178,6 +178,10 @@
 
 @media screen and (max-width: 425px) {
 
+        .navigation {
+         height: 10vw
+    }
+    
     .home-articles {
         height: 680vw;
     }
@@ -218,7 +222,7 @@
     }
 
     .fullScreenBlogs{
-    height: 550vh;
+    height: 607vh;
     }
 
     .blog-para{
@@ -231,7 +235,7 @@
 
 
     .contact-content{
-        height: 130vh;
+        height: 78vh;
     }
 
 
@@ -253,7 +257,7 @@
  }
 
  .fullScreenBlogs{
-    height: 600vh;
+    height: 759vh;
  }
 
  .contact-content input[type="text"] {
@@ -269,7 +273,9 @@ input[type="number"] {
     max-width: 90vw;
 }
 
-
+    .contact-content{
+        height: 110vh;
+    }
 
 }
 
