@@ -176,14 +176,14 @@
 
 /* media query for phones */
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 414px), screen and (max-height:896px) {
 
         .navigation {
-         height: 10vw
+         height: 12vw
     }
     
     .home-articles {
-        height: 680vw;
+        height: 700vw;
     }
 
     .right {
@@ -222,7 +222,7 @@
     }
 
     .fullScreenBlogs{
-    height: 607vh;
+    height: 630vh;
     }
 
     .blog-para{
@@ -250,7 +250,7 @@
 
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:375px), screen and (max-height:667px) {
     
  .home-articles{
   height: 710vw;
